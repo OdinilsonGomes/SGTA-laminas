@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://kuausonho.github.io/desafios/full-stack.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Desafio para programador full-stack | Desafios para vagas de TI - Kuau</title>
+<meta name="generator" content="Jekyll v3.9.2">
+<meta property="og:title" content="Desafio para programador full-stack">
+<meta property="og:locale" content="pt_BR">
+<meta name="description" content="Aqui você encontra os desafios para o processo seletivo de vagas de TI da Kuau.">
+<meta property="og:description" content="Aqui você encontra os desafios para o processo seletivo de vagas de TI da Kuau.">
+<link rel="canonical" href="https://kuausonho.github.io/desafios/full-stack.html">
+<meta property="og:url" content="https://kuausonho.github.io/desafios/full-stack.html">
+<meta property="og:site_name" content="Desafios para vagas de TI - Kuau">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Desafio para programador full-stack">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Aqui você encontra os desafios para o processo seletivo de vagas de TI da Kuau.","headline":"Desafio para programador full-stack","url":"https://kuausonho.github.io/desafios/full-stack.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="preload" href="./Desafio para programador full-stack _ Desafios para vagas de TI - Kuau_files/css" as="style" type="text/css" crossorigin="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="./Desafio para programador full-stack _ Desafios para vagas de TI - Kuau_files/style.css">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/desafios/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+</head>
+<body>
+<a id="skip-to-content" href="https://kuausonho.github.io/desafios/full-stack.html#content">Skip to the content.</a>
+
+<header class="page-header" role="banner">
+    <h1 class="project-name">Desafio para programador full-stack</h1>
+<!--    <h2 class="project-tagline">Aqui você encontra os desafios para o processo seletivo de vagas de TI da Kuau.</h2>-->
+    
+    
+</header>
+
+<main id="content" class="main-content" role="main">
+    <h1 id="desafio-para-programador-full-stack">Desafio para programador full-stack</h1>
+
+<p>Demonstre o nível de seus conhecimentos desenvolvendo as funcionalidades descritas logo abaixo.</p>
+
+<p>Primeiramente, desenvolva as funcionalidades de back-end, e posteriormente, o front-end.
+Ao concluir o desafio, envie todos os links para rh@kuau.com.br.</p>
+
+<h1 id="índice">Índice</h1>
+
+<ol>
+  <li>Back-end
+    <ol>
+      <li>Entidades e requisitos do domínio
+        <ol>
+          <li>Turma</li>
+          <li>Aluno</li>
+        </ol>
+      </li>
+      <li>Requisitos da API
+        <ol>
+          <li>Requisitos Obrigatórios (RO)</li>
+          <li>Requisitos Extra (RE)</li>
+        </ol>
+      </li>
+      <li>Entregas</li>
+      <li>O que será avaliado</li>
+    </ol>
+  </li>
+  <li>Front-end
+    <ol>
+      <li>Casos de uso
+        <ol>
+          <li>Casos de Uso Obrigatórios (CUO)</li>
+          <li>Casos de Uso Extra (CUE)</li>
+        </ol>
+      </li>
+      <li>Entregas</li>
+      <li>O que será avaliado</li>
+    </ol>
+  </li>
+</ol>
+
+<h1 id="back-end">Back-end</h1>
+
+<p>Você deverá projetar e construir um banco de dados MySQL e uma API <strong>REST</strong> em PHP para manipular esses dados.</p>
+
+<p><strong>IMPORTANTE:</strong></p>
+
+<ul>
+  <li>Sua API deve seguir a arquitetura <strong>REST</strong></li>
+  <li>Sua API deve retornar as respostas em JSON.</li>
+  <li>Não utilize Functions ou Procedures do MySQL, implemente a lógica em seu código PHP.</li>
+</ul>
+
+<p>Você pode utilizar qualquer framework de PHP para a construção da API, assim como pode também optar por não utilizar
+nenhum. Se optar por utilizar um framework para a construção da API, você ganhará pontos-extra se optar pelo Laminas
+Framework.</p>
+
+<p>Você pode utilizar qualquer ORM para comunicação com o banco de dados, assim como pode também optar por não utilizar
+nenhum. Se optar por utilizar um ORM, você ganhará pontos-extra se optar pelo Doctrine.</p>
+
+<h2 id="entidades-e-requisitos-do-domínio">Entidades e requisitos do domínio</h2>
+
+<p>Abaixo estão listadas as entidades existentes no domínio e os requisitos para cada uma delas. Se você não obedecer aos
+requisitos, você será <strong>desclassificado</strong>.</p>
+
+<h3 id="turma">Turma</h3>
+
+<p>Cada turma possui um nome e uma série. Uma turma pode possuir zero ou mais alunos. Não é permitido existir duas turmas
+com o mesmo nome.</p>
+
+<h3 id="aluno">Aluno</h3>
+
+<p>Cada aluno possui um nome, email e data de nascimento. Um aluno deve, a todo momento, pertencer a uma, e apenas uma
+turma. Ou seja, um aluno não deve existir sem uma turma. Não é permitido existir dois alunos com o mesmo email.</p>
+
+<h2 id="requisitos-da-api">Requisitos da API</h2>
+
+<p>Os requisitos são divididos em Requisitos Obrigatórios (RO) e Requisitos Extra (RE). Se você não fizer algum dos
+requisitos obrigatórios, será automaticamente <strong>desclassificado</strong>. Os Requisitos Extra garantirão pontos-extra na sua
+avaliação.
+O conteúdo do corpo das requisições e respostas da sua API ficam a seu critério, assim como o formato dos endpoints, mas
+tome cuidado para não fugir da arquitetura REST.</p>
+
+<h3 id="requisitos-obrigatórios-ro">Requisitos Obrigatórios (RO)</h3>
+
+<h4 id="ro1---cadastro-de-turmas">RO1 - Cadastro de turmas</h4>
+
+<p>Sua API deve permitir cadastrar turmas.</p>
+
+<h4 id="ro2---atualização-de-turmas">RO2 - Atualização de turmas</h4>
+
+<p>Sua API deve permitir atualizar o nome das turmas.</p>
+
+<h4 id="ro3---listagem-de-turmas">RO3 - Listagem de turmas</h4>
+
+<p>Sua API deve permitir listar as turmas da escola. Os resultados devem ser ordenados por ordem alfabética do nome.</p>
+
+<h4 id="ro4---exclusão-de-turmas">RO4 - Exclusão de turmas</h4>
+
+<p>Sua API deve permitir excluir turmas.</p>
+
+<h4 id="ro5---cadastro-de-alunos">RO5 - Cadastro de alunos</h4>
+
+<p>Sua API deve permitir cadastrar alunos.</p>
+
+<h4 id="ro6---atualização-de-alunos">RO6 - Atualização de alunos</h4>
+
+<p>Sua API deve permitir atualizar o nome, email e data de nascimento dos alunos.</p>
+
+<h4 id="ro7---exclusão-de-alunos">RO7 - Exclusão de alunos</h4>
+
+<p>Sua API deve permitir excluir alunos.</p>
+
+<h4 id="ro8---listagem-de-alunos-da-turma">RO8 - Listagem de alunos da turma</h4>
+
+<p>Sua API deve permitir listar os alunos de uma turma específica. Os resultados devem ser ordenados por ordem alfabética
+do nome.</p>
+
+<h3 id="requisitos-extra-re">Requisitos Extra (RE)</h3>
+
+<h4 id="re1---autenticação-muitos-pontos-extra">RE1 - Autenticação (muitos pontos-extra)</h4>
+
+<p>A API deve ser protegida por autenticação, ou seja, não deve permitir que usuários não autenticados executem ações no
+sistema. O método de autenticação fica a seu critério, mas aqui estão alguns exemplos: chave de API ou login com usuário
+e senha.</p>
+
+<h4 id="re2---transferência-de-alunos-entre-turmas">RE2 - Transferência de alunos entre turmas</h4>
+
+<p>Permitir transferir um aluno de uma turma para outra.</p>
+
+<h4 id="re3---filtrar-turmas-por-nome">RE3 - Filtrar turmas por nome</h4>
+
+<p>Na listagem de turmas, permitir filtrar os resultados por nome.</p>
+
+<h4 id="re4---filtrar-turmas-por-série">RE4 - Filtrar turmas por série</h4>
+
+<p>Na listagem de turmas, permitir filtrar os resultados por série.</p>
+
+<h4 id="re5---filtrar-alunos-da-turma-por-nome">RE5 - Filtrar alunos da turma por nome</h4>
+
+<p>Na listagem de alunos da turma, permitir filtrar os resultados por nome.</p>
+
+<h4 id="re6---listagem-de-alunos-da-escola">RE6 - Listagem de alunos da escola</h4>
+
+<p>Permitir listar todos os alunos da escola. Para cada aluno, deve-se indicar a qual turma o aluno pertence.</p>
+
+<h2 id="entregas">Entregas</h2>
+
+<p>Você deve entregar:</p>
+
+<ul>
+  <li>Link para o repositório da sua API;</li>
+  <li>Diagrama Entidade Relacionamento (DER) do seu banco de dados. Pode incluir como uma imagem em seu repositório.</li>
+  <li>Link para a sua API. Pode hospedá-la em qualquer lugar que desejar.</li>
+  <li>Instruções para testar cada um dos requisitos da API:
+    <ul>
+      <li>Endpoint;</li>
+      <li>Método HTTP;</li>
+      <li>Formato da payload;</li>
+      <li>Query strings;</li>
+    </ul>
+  </li>
+  <li>Credenciais para autenticação caso tenha feito o Requisito Extra RE1.</li>
+  <li><strong>Envie todas as informações para <em>rh@kuau.com.br</em></strong></li>
+</ul>
+
+<h2 id="o-que-será-avaliado">O que será avaliado</h2>
+
+<ul>
+  <li>Se todos os requisitos de domínio e os requisitos obrigatórios da API foram obedecidos.</li>
+  <li>Conhecimento sobre APIs REST</li>
+  <li>A estruturação de endpoints da sua API.</li>
+  <li>Métodos HTTP utilizados para cada ação na API.
+    <ul>
+      <li>As ações utilizam métodos HTTP apropriados para uma API REST?</li>
+    </ul>
+  </li>
+  <li>Quantidade de requisitos extra da API que foram implementados.</li>
+  <li>Tratamento de erros da API
+    <ul>
+      <li>Os erros estão sendo tratados?</li>
+      <li>Quais códigos HTTP estão sendo utilizados? São adequados para o erro?</li>
+      <li>Informações adicionais nos erros.</li>
+    </ul>
+  </li>
+  <li>A qualidade e a organização do seu código PHP.</li>
+  <li>Sua modelagem do banco de dados.</li>
+  <li>A Documentação da sua API
+    <ul>
+      <li>Listagem dos endpoints e métodos HTTP;</li>
+      <li>Listagem de erros retornados;</li>
+      <li>Formato da payload;</li>
+      <li>Query strings.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="front-end">Front-end</h1>
+
+<p>Agora que você já criou o banco de dados e a API do sistema, você deverá criar um site para que irá comunicar com a API.
+Você deverá implementar os casos de uso descritos na seção <a href="https://kuausonho.github.io/desafios/full-stack.html#casos-de-uso">Casos de Uso</a> e enviar o seu projeto para um
+repositório
+púbico do GitHub.</p>
+
+<p>A organização das páginas, a interface, as ferramentas e frameworks a serem utilizados ficam a seu critério.
+Pode-se utilizar qualquer framework CSS, ou até mesmo nenhum. Pode-se também utilizar qualquer linguagem de extensão de
+CSS, como Sass e Less. Caso opte por usar o <a href="https://angular.io/">Angular</a> como framework web Javascript você irá ganhar
+pontos-extra.</p>
+
+<p><strong>IMPORTANTE</strong>: Não utilize o PHP para gerar o seu HTML.</p>
+
+<h2 id="casos-de-uso">Casos de uso</h2>
+
+<p>Os casos de uso estão separados em duas categorias: obrigatórios e extra. Se você não implementar os casos de uso
+obrigatórios, estará automaticamente desclassificado. Se você implementar os casos de uso extra irá ganhar “pontos
+extra”.</p>
+
+<h3 id="casos-de-uso-obrigatórios-cuo">Casos de uso obrigatórios (CUO)</h3>
+
+<p>Seu site deve permitir realizar as ações descritas nos Requisitos Obrigatórios (RO) da API:</p>
+
+<ul>
+  <li>CUO1 - Cadastro de turmas;</li>
+  <li>CUO2 - Atualização de turmas;
+    <ul>
+      <li>Deve-se permitir atualizar o nome das turmas.</li>
+    </ul>
+  </li>
+  <li>CUO3 - Listagem de turmas;
+    <ul>
+      <li>Os resultados devem ser ordenados por ordem alfabética do nome.</li>
+    </ul>
+  </li>
+  <li>CUO4 - Exclusão de turmas;</li>
+  <li>CUO5 - Cadastro de alunos;</li>
+  <li>CUO6 - Atualização de alunos;
+    <ul>
+      <li>Deve-se permitir atualizar o nome, email e data de nascimento dos alunos.</li>
+    </ul>
+  </li>
+  <li>CUO7 - Exclusão de alunos;</li>
+  <li>CUO8 - Listagem de alunos da turma.
+    <ul>
+      <li>Os resultados devem ser ordenados por ordem alfabética do nome.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="casos-de-uso-extra-cue">Casos de uso extra (CUE)</h3>
+
+<p>Seu site deve permitir realizar as ações descritas nos Requisitos Extra (RE) da API:</p>
+
+<ul>
+  <li>CUE1 - Autenticação (muitos pontos-extra);
+    <ul>
+      <li>Apenas no caso do método de autenticação escolhido exigir login.</li>
+    </ul>
+  </li>
+  <li>CUE2 - Transferência de alunos entre turmas;</li>
+  <li>CUE3 - Filtrar turmas por nome;</li>
+  <li>CUE4 - Filtrar turmas por série;</li>
+  <li>CUE5 - Filtrar alunos da turma por nome;</li>
+  <li>CUE6 - Listagem de alunos da escola.</li>
+</ul>
+
+<h2 id="entregas-1">Entregas</h2>
+
+<p>Você deve entregar:</p>
+
+<ul>
+  <li>Link para o repositório do GitHub;</li>
+  <li>Um link para um local onde seu site esteja hospedado para podermos testá-lo.
+    <ul>
+      <li>Você pode hospedar seu site gratuitamente no <a href="https://pages.github.com/">GitHub Pages</a>, 
+<a href="https://www.heroku.com/free">Heroku</a>, dentre outros.</li>
+    </ul>
+  </li>
+  <li>Credenciais para login caso necessário.</li>
+  <li><strong>Envie todas as informações para <em>rh@kuau.com.br</em></strong></li>
+</ul>
+
+<h2 id="o-que-será-avaliado-1">O que será avaliado</h2>
+
+<ul>
+  <li>Conhecimento em HTML;</li>
+  <li>Conhecimento em CSS;</li>
+  <li>Conhecimento em Javascript/Typescript;</li>
+  <li>Conhecimento em Angular (caso tenha optado por utilizar);</li>
+  <li>Responsividade das páginas;
+    <ul>
+      <li>As páginas devem se adaptar para o uso em desktops, tablets e celulares.</li>
+    </ul>
+  </li>
+  <li>Tratamento de erros de API recebidos;</li>
+  <li>Tratamento de respostas vazias recebidas da API.</li>
+  <li>Qualidade e criatividade na organização das páginas;</li>
+  <li>Qualidade e organização do código.</li>
+  <li>A quantidade de Casos de Uso Extra implementados.</li>
+</ul>
+
+
+
+    <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com/">GitHub Pages</a>.</span>
+    </footer>
+</main>
+
+
+</body></html>

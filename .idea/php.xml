@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/api-tools-skeleton/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/api-tools-skeleton/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-hydrator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-paginator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-modulemanager" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/composer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-configuration" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/brick/varexporter" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-db" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-config" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/vimeo/psalm" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/doctrine-laminas-hydrator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/doctrine-orm-module" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/doctrine-module" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/felixfbecker/language-server-protocol" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/felixfbecker/advanced-json-rpc" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/webimpress/coding-standard" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/psalm/plugin-phpunit" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/bshaffer/oauth2-server-php" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-developer-tools" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-cache" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-coding-standard" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-development-mode" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-json" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-mvc" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-validator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-filter" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-view" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-uri" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-authentication" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-i18n" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-servicemanager" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-permissions-rbac" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-loader" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-test" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-cli" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-inputfilter" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-component-installer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-http" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-router" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-form" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-math" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-mvc-i18n" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-crypt" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/netresearch/jsonmapper" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-composer-autoloading" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas/laminas-permissions-acl" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/openlss/lib-array2xml" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-api-problem" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-rpc" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-versioning" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-rest" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-content-validation" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-mvc-auth" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-admin" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-hal" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-content-negotiation" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-provider" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-admin-ui" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-asset-manager" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-oauth2" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-documentation" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/lm-commons/lmc-cors" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/lcobucci/clock" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/api-tools-skeleton/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="Psalm">
+    <Psalm_settings>
+      <PsalmConfiguration tool_path="$PROJECT_DIR$/api-tools-skeleton/vendor/bin/psalm" />
+    </Psalm_settings>
+  </component>
+</project>
