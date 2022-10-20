@@ -24,9 +24,7 @@ class AlunoResource extends AbstractResourceListener
      */
     public function create($data)
     {
-        /*if(!isset($_SESSION['SGTA_logado'])){
-            return new ApiProblem(403, 'Por Favor faça Login!');
-        }*/
+
         $parsedData = json_decode(
             json_encode($data, JSON_THROW_ON_ERROR),
             true,
@@ -69,9 +67,7 @@ class AlunoResource extends AbstractResourceListener
      */
     public function delete($id)
     {
-        if(!isset($_SESSION['SGTA_logado'])){
-            return new ApiProblem(403, 'Por Favor faça Login!');
-        }
+
         try {
             return $this->aluno_service->delete_aluno($id);
         } catch (OptimisticLockException $e) {
@@ -98,9 +94,7 @@ class AlunoResource extends AbstractResourceListener
      */
     public function fetch($id)
     {
-        if(!isset($_SESSION['SGTA_logado'])){
-            return new ApiProblem(403, 'Por Favor faça Login!');
-        }
+
         return $this->aluno_service->feacth_alunoById($id);
 
     }
@@ -113,9 +107,6 @@ class AlunoResource extends AbstractResourceListener
      */
     public function fetchAll($params = [])
     {
-        /*if(!isset($_SESSION['SGTA_logado'])){
-            return new ApiProblem(403, 'Por Favor faça Login!');
-        }*/
 
         $id_turma=$this->getEvent()->getRouteParam("id_turma");
         if($id_turma){
@@ -174,9 +165,7 @@ class AlunoResource extends AbstractResourceListener
 
     public function update($id, $data)
     {
-        if(!isset($_SESSION['SGTA_logado'])){
-            return new ApiProblem(403, 'Por Favor faça Login!');
-        }
+
         $parsedData = json_decode(
             json_encode($data, JSON_THROW_ON_ERROR),
             true,

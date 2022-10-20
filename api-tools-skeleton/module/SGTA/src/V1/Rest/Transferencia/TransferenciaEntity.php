@@ -26,12 +26,17 @@ class TransferenciaEntity
     #[ORM\Column(type: "integer")]
     private int $id_estado;
 
+    #[ORM\Column(length: 100)]
+    private string $data_reg;
+
     /**
+     * @param int|null $id
      * @param int $id_aluno
      * @param int $id_turma_anterior
      * @param int $id_turma_destino
      * @param int $id_utilizador
      * @param int $id_estado
+     * @param string $data_reg
      */
     public function __construct(
         ?int $id,
@@ -39,7 +44,8 @@ class TransferenciaEntity
         int $id_turma_anterior,
         int $id_turma_destino,
         int $id_utilizador,
-        int $id_estado
+        int $id_estado,
+        string $data_reg
     ) {
         $this->id = $id;
         $this->id_aluno = $id_aluno;
@@ -47,6 +53,24 @@ class TransferenciaEntity
         $this->id_turma_destino = $id_turma_destino;
         $this->id_utilizador = $id_utilizador;
         $this->id_estado = $id_estado;
+        $this->data_reg = $data_reg;
+    }
+
+
+    /**
+     * @return string
+     */
+    public function getDataReg(): string
+    {
+        return $this->data_reg;
+    }
+
+    /**
+     * @param string $data_reg
+     */
+    public function setDataReg(string $data_reg): void
+    {
+        $this->data_reg = $data_reg;
     }
 
     /**

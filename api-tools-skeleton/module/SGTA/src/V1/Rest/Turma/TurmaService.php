@@ -15,7 +15,7 @@ class TurmaService extends EntityRepository
 
        return $this->getEntityManager()
             ->createQueryBuilder()
-            ->select('t.nome,t.serie')
+            ->select('t.id,t.nome,t.serie')
             ->from(\SGTA\V1\Rest\Turma\TurmaEntity::class,'t')
             ->Where("t.id_estado=1")
             ->orderBy("t.nome")

@@ -6,15 +6,19 @@ use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\Exception\ORMException;
 use Doctrine\ORM\OptimisticLockException;
 use Doctrine\ORM\TransactionRequiredException;
+use SGTA\V1\Rest\Turma\TurmaEntity;
 
 class AlunoService extends EntityRepository
 {
     public function feacth_all_aluno():array{
         return $this->getEntityManager()
             ->createQueryBuilder()
-            ->select('a.id,a.nome,a.email,a.data_nasc,a.id_turma')
+            ->select('a.id,a.nome,a.email,a.data_nasc,a.id_turma,t.nome as nome_turma')
             ->from(\SGTA\V1\Rest\Aluno\AlunoEntity::class,'a')
+            ->join(TurmaEntity::class,'t')
             ->where("a.id_estado=1")
+            ->andWhere("a.id_turma=t.id")
+            ->orderBy("a.nome")
             ->getQuery()
             ->getArrayResult();
     }
